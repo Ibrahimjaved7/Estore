@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+* {
+  font-family: "Special Elite", cursive;
+}
+
+.LogoHeading {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.mainBox {
+  margin-top: 2% !important;
+  padding: 25px;
+  display: flex;
+  margin-bottom: 1% !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+#manageUserHead {
+  text-align: center;
+  margin-top: -40px;
+  margin-left: -35%;
+}
+
+#manageUser,
+#manageProduct {
+  margin-top: 4%;
+  margin-bottom: 2%;
+  padding: 20px;
+  border-radius: 15px;
+  width: 40%;
+}
+
+#delUser,
+#viewUser,
+#viewItem,
+#newItem,
+#UpdateInfoUser,
+#delItem,
+#return_back {
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  width: 80%;
+}
